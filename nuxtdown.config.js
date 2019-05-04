@@ -9,6 +9,15 @@ module.exports = {
     };
   },
   content: [
+    // My blog posts are in content/blog
+    [
+      "posts",
+      {
+        page: "/blog/_post",
+        permalink: "/blog/:slug"
+      }
+    ],
+    // pages
     [
       "pages",
       {
