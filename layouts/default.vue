@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <nav>
       <ul>
         <li>
@@ -32,6 +32,11 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 100px auto 0;
 }
 
 .button--green {
