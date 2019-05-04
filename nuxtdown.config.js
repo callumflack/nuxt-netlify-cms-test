@@ -1,7 +1,12 @@
 module.exports = {
+  // api: function(isStatic) {
+  //   return { browserBaseURL: isStatic ? "https://callumflack.design" : "" };
+  // }
   api: function(isStatic) {
     const baseURL = "http://localhost:3000";
-    const browserBaseURL = !isStatic ? "" : process.env.BASE_URL;
+    const browserBaseURL = !isStatic
+      ? "https://nuxt-netlify-cms-test.netlify.com/"
+      : process.env.BASE_URL;
 
     return {
       baseURL,
