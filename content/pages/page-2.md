@@ -1,10 +1,13 @@
+---
+title: Let's make some noise
+description: Blah blah music music
+---
+![Miles](/images/uploads/img_3305.jpg)
 
-This is another example page.
+Deploy to Netlify
 
-## Aliqua proident occaecat sint culpa nisi consequat
+The folder of your generated project will contain a netlify-example.toml file you can rename to netlify.toml to get started with Netlify deployment. It automatically sets the BASE_URL based on your Netlify configuration and the type of deployment (Production deployment, branch deployment, preview deployment). So no need to set the production URL in the package.json.
 
-Consequat nostrud do commodo quis enim duis aliquip. Nulla pariatur deserunt cillum ullamco aliquip quis proident ullamco laborum dolor deserunt id in deserunt. Occaecat excepteur dolore non est. Consectetur Lorem velit aute quis enim occaecat incididunt incididunt laboris. Est proident eiusmod veniam ullamco pariatur pariatur. Velit consequat enim ut do deserunt exercitation quis qui nulla ullamco consectetur incididunt voluptate consectetur.
+Deploy with other CI solutions
 
-Eu duis veniam culpa est pariatur Lorem ullamco eiusmod mollit in. Duis irure ex est est officia ut eu irure. Enim magna deserunt in ea id nisi. Consequat consectetur et est quis occaecat. Magna esse ipsum eiusmod minim. Exercitation aute aliqua aliqua id ad anim aliqua deserunt nostrud fugiat aliquip aliqua. Amet minim non non magna enim Lorem.
-
-Magna nulla ipsum laborum irure in irure voluptate aliqua anim deserunt nostrud est. Ea consectetur qui elit labore aliquip. Ullamco ea proident mollit cillum magna qui dolor do excepteur. Fugiat nostrud ea consectetur proident aute consectetur ex minim do cillum sit dolore et dolor. Laboris veniam non magna sunt fugiat magna adipisicing et et.
+If you use other CI solutions, you always have to make sure, that the environment variable BASE_URL is set to the URL where the website will run. Tools like GitLab allow you to set environment variables in the settings of the project and make it easy to use what ever way you want to deploy your project.
